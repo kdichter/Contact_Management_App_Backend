@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: security
+  datasource:
+    url: jdbc:postgresql://localhost:5432/security
+    username: postgres
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+jwt:
+  # Use JWT_SECRET env var if it exists, otherwise use the default value after the colon
+  secret: ${JWT_SECRET:OVq1+rTLMPmYFmPKNJ9z7qvm6XtQCx2FuaIx773Onpc=}
+  expiration: ${JWT_EXPIRATION:86400000} # 24 hours
+
+  #  secret: OVq1+rTLMPmYFmPKNJ9z7qvm6XtQCx2FuaIx773Onpc=
+  #  expiration: 86400000
+
