@@ -1,6 +1,6 @@
-package com.kdichter.security.service;
+package com.kdichter.service;
 
-import com.kdichter.security.contact.Contact;
+import com.kdichter.contact.Contact;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -24,7 +24,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import static com.kdichter.security.constant.Constant.PHOTO_DIRECTORY;
+import static com.kdichter.constant.Constant.PHOTO_DIRECTORY;
 
 @RestController
 @RequestMapping("/api/v1/contacts")

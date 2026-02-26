@@ -1,6 +1,6 @@
-package com.kdichter.security.config;
+package com.kdichter.config;
 
-import com.kdichter.security.user.UserRepository;
+import com.kdichter.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,8 +18,8 @@ import org.springframework.web.filter.CorsFilter;
 
 import java.util.List;
 
-import static com.kdichter.security.constant.Constant.WEB_URL;
-import static com.kdichter.security.constant.Constant.X_REQUESTED_WITH;
+import static com.kdichter.constant.Constant.WEB_URL;
+import static com.kdichter.constant.Constant.X_REQUESTED_WITH;
 import static org.springframework.http.HttpHeaders.ACCEPT;
 import static org.springframework.http.HttpHeaders.ACCESS_CONTROL_ALLOW_CREDENTIALS;
 import static org.springframework.http.HttpHeaders.ACCESS_CONTROL_ALLOW_ORIGIN;

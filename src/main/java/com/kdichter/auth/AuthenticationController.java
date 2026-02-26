@@ -1,4 +1,4 @@
-package com.kdichter.security.auth;
+package com.kdichter.auth;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.kdichter.security.demo;
+package com.kdichter.demo;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

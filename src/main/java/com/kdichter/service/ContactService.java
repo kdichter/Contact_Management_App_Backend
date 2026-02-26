@@ -1,9 +1,9 @@
-package com.kdichter.security.service;
+package com.kdichter.service;
 
-import com.kdichter.security.contact.Contact;
-import com.kdichter.security.contact.ContactRepository;
-import com.kdichter.security.user.User;
-import com.kdichter.security.user.UserRepository;
+import com.kdichter.contact.Contact;
+import com.kdichter.contact.ContactRepository;
+import com.kdichter.user.User;
+import com.kdichter.user.UserRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -26,7 +26,7 @@ import java.util.Optional;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-import static com.kdichter.security.constant.Constant.PHOTO_DIRECTORY;
+import static com.kdichter.constant.Constant.PHOTO_DIRECTORY;
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
 @Service

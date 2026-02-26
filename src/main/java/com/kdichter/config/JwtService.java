@@ -1,4 +1,4 @@
-package com.kdichter.security.config;
+package com.kdichter.config;
 
 
 import io.jsonwebtoken.Claims;

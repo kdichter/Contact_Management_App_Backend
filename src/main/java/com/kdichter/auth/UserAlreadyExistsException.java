@@ -1,4 +1,4 @@
-package com.kdichter.security.auth;
+package com.kdichter.auth;
 
 public class UserAlreadyExistsException extends RuntimeException {
     public UserAlreadyExistsException(String message) {

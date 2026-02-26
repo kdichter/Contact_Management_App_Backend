@@ -1,4 +1,4 @@
-package com.kdichter.security.user;
+package com.kdichter.user;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

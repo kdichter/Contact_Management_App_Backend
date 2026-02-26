@@ -1,4 +1,4 @@
-package com.kdichter.security.contact;
+package com.kdichter.contact;
 
 public enum ContactStatus {
     ACTIVE,

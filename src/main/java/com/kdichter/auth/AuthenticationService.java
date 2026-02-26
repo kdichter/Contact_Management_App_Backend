@@ -1,9 +1,9 @@
-package com.kdichter.security.auth;
+package com.kdichter.auth;
 
-import com.kdichter.security.config.JwtService;
-import com.kdichter.security.user.Role;
-import com.kdichter.security.user.User;
-import com.kdichter.security.user.UserRepository;
+import com.kdichter.config.JwtService;
+import com.kdichter.user.Role;
+import com.kdichter.user.User;
+import com.kdichter.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

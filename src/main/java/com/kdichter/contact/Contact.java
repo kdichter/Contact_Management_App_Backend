@@ -1,8 +1,7 @@
-package com.kdichter.security.contact;
+package com.kdichter.contact;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.kdichter.security.user.User;
+import com.kdichter.user.User;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

@@ -1,4 +1,4 @@
-package com.kdichter.security.user;
+package com.kdichter.user;
 
 public enum Role {
     USER,

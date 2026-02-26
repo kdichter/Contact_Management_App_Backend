@@ -1,6 +1,6 @@
-package com.kdichter.security.contact;
+package com.kdichter.contact;
 
-import com.kdichter.security.user.User;
+import com.kdichter.user.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

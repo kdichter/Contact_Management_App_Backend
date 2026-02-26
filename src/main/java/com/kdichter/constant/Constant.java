@@ -1,4 +1,4 @@
-package com.kdichter.security.constant;
+package com.kdichter.constant;
 
 public class Constant {
     public static final String PHOTO_DIRECTORY = System.getenv().getOrDefault("UPLOAD_DIR", System.getProperty("user.home") + "/Downloads/uploads/");

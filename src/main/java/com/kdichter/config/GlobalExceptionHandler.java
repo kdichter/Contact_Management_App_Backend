@@ -1,7 +1,6 @@
-package com.kdichter.security.config;
+package com.kdichter.config;
 
-import com.kdichter.security.auth.UserAlreadyExistsException;
-import org.apache.coyote.Response;
+import com.kdichter.auth.UserAlreadyExistsException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
