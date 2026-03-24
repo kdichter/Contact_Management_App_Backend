@@ -1,6 +1,5 @@
-package com.kdichter.service;
+package com.kdichter.contact;
 
-import com.kdichter.contact.Contact;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

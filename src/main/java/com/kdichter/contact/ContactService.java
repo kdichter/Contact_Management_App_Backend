@@ -1,7 +1,5 @@
-package com.kdichter.service;
+package com.kdichter.contact;
 
-import com.kdichter.contact.Contact;
-import com.kdichter.contact.ContactRepository;
 import com.kdichter.user.User;
 import com.kdichter.user.UserRepository;
 import jakarta.transaction.Transactional;
@@ -17,7 +15,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.server.ResponseStatusException;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
